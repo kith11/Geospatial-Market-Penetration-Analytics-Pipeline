@@ -1,0 +1,14 @@
+# --- DATA INGESTION & PIPELINE ENGINE ---
+polars>=1.0.0       # Lightning-fast dataframe and ETL engine
+requests>=2.31.0    # For fetching data directly from the Apify API
+
+# --- CLOUD STORAGE & DATA WAREHOUSE ---
+duckdb>=1.0.0       # Required locally because MotherDuck relies on the duckdb core library
+boto3>=1.34.0       # For connecting Polars and your pipeline to Cloudflare R2 buckets
+
+# --- ORCHESTRATION ---
+prefect>=3.0.0      # Modern workflow orchestration to schedule your Polars tasks
+
+# --- ADVANCED ANALYTICS & VISUALIZATION ---
+streamlit>=1.32.0   # UI framework for your final analytical app
+plotly>=5.19.0      # Interactive data visualizations for your Streamlit dashboard
