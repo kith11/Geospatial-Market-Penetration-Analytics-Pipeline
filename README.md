@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-*Geospatial Market Penetration Analytics Pipeline*
-
-
-
 my-data-pipeline/
 │
 ├── .env                  # Local secret keys (Apify token, MotherDuck token, R2 credentials)
