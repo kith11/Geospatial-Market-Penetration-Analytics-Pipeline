@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *Geospatial Market Penetration Analytics Pipeline*
 
 
@@ -31,3 +32,6 @@ my-data-pipeline/
 │
 └── app/                  # Frontend Analytics Layer
     └── dashboard.py      # Your Streamlit application pulling data from MotherDuck
+=======
+# Geospatial-Market-Penetration-Analytics-Pipeline
+>>>>>>> 489542b90546d72b14ec0fc7346c851b6a9b3825
